@@ -1,0 +1,102 @@
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch bu
+g-fix-typo
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch
+bug-fix-typo
+* main
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git checkout
+Tool iframe
+bug-fix-typo
+Switched to branch 'bug-fix-typo' theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git add . theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git commit -m
+"copyright year update in readme.md"
+Ibug-fix-typo 6fe8e9d] copyright year update in readme-md
+1 file changed, 1 insertion(+), 1 deletion(-)
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git push fatal: The current branch bug-fix-typo has no upstream branch.
+To push the current branch and set the remote as upstream, use
+git push --set-upstream origin bug-fix-typo
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git push --se
+t-upstream origin bug-fix-typo
+Username for 'https://github.com': aditya0986
+Password for 'https://aditya0986@github.com':
+remote: Invalid username or token. Password authentication is not supported for Git operat ions.
+fatal: Authentication failed for 'https://github.com/aditya0986/mcino-Introduction-to-Git-
+and-GitHub-git/'
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ gh auth login
+bash: gh: command not found
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git status
+On branch buq-fix-typo
+
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git push fatal: The current branch bug-fix-typo has no upstream branch.
+To push the current branch and set the remote as upstream, use
+git push --set-upstream origin bug-fix-typo
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git push --se
+t-upstream origin bug-fix-typo
+Username for 'https://github.com': aditya@986 Password for 'https://aditya@986@github.com':
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 580 bytes | 580.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused Ø remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'bug-fix-typo' on GitHub by visiting:
+remote:
+https://github.com/aditya0986/mcino-Introduction-to-Git-and-GitHub/pull/new/b
+ug-fix-typo remote:
+To https://github.com/aditya0986/mcino-Introduction-to-Git-and-GitHub.git
+* Inew branch]
+bug-fix-typo -> bug-fix-typo
+Branch 'bug-fix-typo' set up to track remote branch 'bug-fix-typo' from 'origin' theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git switch ma
+in
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git merge bug
+Updating 0a1851f..6fe8e9d
+1 file changed, 1 insertion(+), 1 deletion(-)
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch bu
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git checkout
+branch 'bug-fix-revert'
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git log
+6fe8e9d2c9f885475a0fb1fc13e7b65c40bcaaeb (HEAD → bug-fix-revert, origin/bug-fix-ty
+bug-fix-typo)
+Author: aditva0986 <aditvaaa.0986@amail.com>
+Wed Aug 26 12:43:34 2026
+commit 6fe8e9d2c9f885475a0fb1fc13e7b65c40bcaaeb (HEAD -> bug-fix-revert, origin/bug-fix-ty
+Author: aditya0986
+<adityaaa.0986@gmail.com>
+Aug 26 12:43:34
+copyright year update in readme.md
+commit 0a1851f982b69b818d433af5527f7bb11bdc95fc
+Author: aditva0986 <aditvaaa.0986@amail.com>
+Date:
+Wed Aug 26 12:42:14 2026 -0400
+
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git revert HE
+AD
+[bug-fix-revert 40e2d1d] Revert "copyright year update in readme.md"
+1 file changed, 1 insertion(+), 1 deletion(-)
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git push fatal: The current branch bug-fix-revert has no upstream branch.
+To push the current branch and set the remote as upstream, use
+git push --set-upstream origin bug-fix-revert
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git push --se t-upstream origin bug-fix-revert
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threa
+Tool iframe
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 348 bytes | 348.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta Ø), pack-reused Ø remote: Resolving deltas: 100% (2/2), completed with 2 local objects. remote:
+remote: Create a pull request for 'bug-fix-revert' on GitHub by visiting: remote:
+https://github.com/aditya0986/mcino-Introduction-to-Git-and-GitHub/pull/new/b
+ug-fix-revert remote:
+To https://github.com/aditya0986/mcino-Introduction-to-Git-and-GitHub.git
+* [new branch]
+bug-fix-revert -> bug-fix-revert
+Branch 'bug-fix-revert' set up to track remote branch 'bug-fix-revert' from 'origin'. theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ curl -s https ://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/
+pulls/402d1de3c65f96b7cd922d9e6abd7369243c | j9 -r'head.repo.clone_url'
+https://github.com/2420030089-bot/mcino-Introduction-to-Git-and-GitHub.git
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch -v
+V
+* bug-fix-revert 40e2d1d [origin/bug-fix-revert] Revert "copyright year update in readme.m d"'
+bug-fix-typo 6fe8e9d [origin/bug-fix-typol copyright year update in readme.md main
+6fe8e9d lorigin/main: ahead 3] copyright year update in readme-md
+theia@theia-jadhavadity4:/home/project/mcino-Introduction-to-Git-and-GitHub$
